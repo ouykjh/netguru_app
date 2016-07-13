@@ -3,8 +3,8 @@ ruby '2.2.3'
 
 gem 'bootstrap-sass'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'decent_exposure'
-gem 'devise'
+gem 'decent_exposure', '~> 2.3.2'
+gem 'devise', '~> 3.5.2'
 gem 'draper'
 gem 'font-awesome-rails'
 gem 'jquery-rails'
@@ -19,6 +19,7 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'dotenv-rails'
 gem 'gretel'
+gem 'tzinfo-data'
 
 group :development do
   gem 'better_errors'
