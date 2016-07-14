@@ -3,11 +3,11 @@ connection: &connection
   encoding: unicode
   host:     localhost
   pool: 5
-  username: workshops
-  password:
 
 development:
   <<: *connection
+  username: workshops
+  password:
   database: workshops_development
 
 test: &test
