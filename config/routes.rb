@@ -9,4 +9,8 @@ Rails.application.routes.draw do
   resources :teachers do
     get :subjects
   end
+
+  scope :report do
+    get :subjects, controller: :reports, as: :report_subjects
+  end
 end
