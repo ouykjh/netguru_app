@@ -23,6 +23,7 @@ en:
     columns:
       first_name: first name
       last_name: last name
+      birthdate: birthdate
   teacher:
     columns:
       first_name: first name
@@ -32,3 +33,6 @@ en:
     columns:
       full_name: Full name
       avg_notes: Notes avarange
+  date:
+    formats:
+      day_underscore: "%Y-%m_%d"

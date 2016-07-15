@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 feature 'User checks student details' do
-  let!(:student) { create :student, first_name: 'Jan', last_name: 'Nowak' }
+  let!(:student) { create :student, first_name: 'Jan', last_name: 'Nowak', birthdate: '2010-12-01'}
 
   background do
     sign_in
@@ -14,5 +14,8 @@ feature 'User checks student details' do
     within('.breadcrumbs') do
       expect(page).to have_content 'RoR Workhops » Students » Jan Nowak'
     end
+
+    expect(page).to have_content 'birthdate'
+    expect(page).to have_content '2010-12-01'
   end
 end
