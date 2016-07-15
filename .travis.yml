@@ -8,5 +8,6 @@ script:
 before_script:
   - cp config/database.travis.yml config/database.yml
   - psql -c 'create database workshops_test;' -U postgres
+  - psql -c 'create user workshops;' -U postgres
 addons:
   postgresql: '9.3'
