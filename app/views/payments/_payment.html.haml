@@ -2,5 +2,5 @@
   %td= payment.student.decorate.full_name
   %td= payment.amount
   %td= payment.paid_date
-  %td=hidden_field payment, payment.paid_date.strftime("%B")
--#FIXME: very ugly way to sorting by months need to be refactor by jQuery or Angular
+  %td= payment.paid_date.strftime("%B")
+-#FIXME: ugly way to sorting by months need to be refactor using some king of mapper

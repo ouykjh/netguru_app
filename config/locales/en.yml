@@ -39,6 +39,7 @@ en:
       student_name: Student name
       amount: Amount
       date: Date
+      month_payment: Month of payment
   date:
     formats:
       day_underscore: "%Y-%m_%d"

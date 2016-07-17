@@ -5,6 +5,7 @@
       %th= t('payments.columns.student_name')
       %th= t('payments.columns.amount')
       %th= t('payments.columns.date')
-      %th.hidden &nbsp
+      %th#months
+        = t('payments.columns.month_payment')
   %tbody
     = render partial: payments
