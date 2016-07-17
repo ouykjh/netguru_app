@@ -36,8 +36,8 @@ students_list = [
 
 teachers_list = [
     ['Wiktor', 'Schmi', 'Prof.'],
-    ['Kuba', 'Filipov', 'Prof'],
-    ['Maria', 'Pruch', 'Dr']
+    ['Kuba', 'Filipov', 'Prof.'],
+    ['Maria', 'Pruch', 'Dr.']
 ]
 
 subjects_list = [
