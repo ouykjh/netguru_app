@@ -40,4 +40,9 @@ SubjectItem.all.each do |subject_item|
   end
 end
 
+20.times do
+  Payment.create(amount: rand() * 1000,
+               paid_date: Faker::Date.between(2.years.ago, Date.today),
+               student: students.sample)
+end
 puts "Seeds: done"

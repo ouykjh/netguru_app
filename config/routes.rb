@@ -10,6 +10,8 @@ Rails.application.routes.draw do
     get :subjects
   end
 
+  resources :payments
+
   scope :report do
     get :subjects, controller: :reports, as: :report_subjects
   end
