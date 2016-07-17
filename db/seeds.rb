@@ -37,15 +37,15 @@ students_list = [
 teachers_list = [
     ['Wiktor', 'Schmi', 'Prof.'],
     ['Kuba', 'Filipov', 'Prof'],
-    ['Maria', 'Pruch', 'Dr'],
+    ['Maria', 'Pruch', 'Dr']
 ]
 
 subjects_list = [
-  ['kolarstwo gorskie'],
-  ['informatyka'],
-  ['bieg w workach'],
-  ['latanie na miotle'],
-  ['spiew z karpiem']
+  'kolarstwo gorskie',
+  'informatyka',
+  'bieg w workach',
+  'latanie na miotle',
+  'spiew z karpiem'
 ]
 
 paid_date_list = [
